@@ -6,11 +6,13 @@ EduToon transforms your lecture topics into captivating stories! 🧠📖
 Using AI, it turns complex concepts into easy-to-understand narratives that make learning fun and memorable. Ideal for students and educators alike!
 
 ## Features:
-AI-Generated Stories: Educational topics turned into interactive stories.
+🤖 AI-Generated Stories: Educational topics turned into interactive stories.
 
-Customizable Content: Adjust details or styles to match your learning needs.
+🎨 Customizable Content: Adjust details or styles to match your learning needs.
 
-Engaging Narratives: Learn through storytelling instead of traditional methods.
+📚 Engaging Narratives: Learn through storytelling instead of traditional methods.
+
+
 
 ## How to Get Started:
 
@@ -29,14 +31,12 @@ Engaging Narratives: Learn through storytelling instead of traditional methods.
    npm start
    ```
 
-**How It _Works_:**
-1. Pick your lecture topic.
+## **How It _Works_:**
+1. 📌 Pick your lecture topic.
 
-2. Choose your narrative style (optional).
+2. 📖 Click Generate Story and let EduToon create a fun, educational tale.
 
-3. Click Generate Story 📖 and let EduToon create a fun, educational tale.
-
-4. Share or Save your story for further learning.
+3. 💾 Share or Save your story for further learning.
 
    🚀Head over to http://localhost:3000 to generate your first educational story!
 
@@ -49,13 +49,16 @@ Engaging Narratives: Learn through storytelling instead of traditional methods.
 
 ![image](https://github.com/user-attachments/assets/c334cb7a-6ab6-40ad-a9cf-c19015c07193)
 
-![image](https://github.com/user-attachments/assets/c7d4ee80-2a1c-43d9-a556-f45ef76081cf)
+### Enter the topic you want to learn...Here for eg: i have entered the *Ohm's Law* ; after that choose the current level of your knowlegde about that topic and select the action...means whether you want to learn, revise or practise; according to it, it will respond. Here i had choosed level as beginner and action as learn; on the basis of this parameters the following output was generated: 
 
-![image](https://github.com/user-attachments/assets/36f6ae54-e3e0-42f2-9c25-46f1a55b8431)
 
 ![image](https://github.com/user-attachments/assets/348f885d-4e93-4c3f-906e-18e5714f23ae)
 
 
+![image](https://github.com/user-attachments/assets/36f6ae54-e3e0-42f2-9c25-46f1a55b8431)
+
+
+![image](https://github.com/user-attachments/assets/c7d4ee80-2a1c-43d9-a556-f45ef76081cf)
 
 
 
@@ -65,3 +68,8 @@ Engaging Narratives: Learn through storytelling instead of traditional methods.
 Got an idea? Found a bug?
 
 Fork the repo, make your change, and submit a pull request!
+
+
+## Acknowledgments:
+
+Big thanks to OpenAI for the AI magic 🧙‍♂️!
