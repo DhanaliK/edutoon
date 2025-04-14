@@ -1,6 +1,7 @@
 # EduToon: Making Learning Delightful Through Storytelling
 
 ***What is EduToon?***
+
 EduToon transforms your lecture topics into captivating stories! 🧠📖
 Using AI, it turns complex concepts into easy-to-understand narratives that make learning fun and memorable. Ideal for students and educators alike!
 
@@ -14,7 +15,7 @@ Engaging Narratives: Learn through storytelling instead of traditional methods.
 How to Get Started:
 1. Clone the Repo:
    ```
-   git clone https://github.com/your-username/edutoon.git
+   git clone https://github.com/DhanaliK/edutoon.git
    ```
 2. Install Dependencies:
    ```
