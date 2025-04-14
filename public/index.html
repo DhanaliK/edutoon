@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduToon: AI-Powered Story Explanations</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="background-animation"></div>
+        
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo-container">
+                    <i class="fas fa-book-open logo-icon"></i>
+                    <h1 class="logo-text">EduToon</h1>
+                </div>
+                <button class="sidebar-toggle" id="sidebar-toggle">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <h3 class="nav-section-title">Learn</h3>
+                    <ul>
+                        <li class="nav-item active">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fas fa-history"></i>
+                            <span>History</span>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fas fa-bookmark"></i>
+                            <span>Saved Stories</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="nav-section">
+                    <h3 class="nav-section-title">Resources</h3>
+                    <ul>
+                        <li class="nav-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Examples</span>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fas fa-question-circle"></i>
+                            <span>FAQ</span>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fas fa-cog"></i>
+                            <span>Settings</span>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <div class="avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="user-info">
+                        <span class="username">Guest User</span>
+                        <span class="user-email">guest@EduToon.com</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        
+        <div class="main-content">
+            <header class="app-header">
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="header-content">
+                    <p class="tagline">Transform complex topics into captivating stories</p>
+                </div>
+                <div class="header-decoration">
+                    <div class="decoration-circle"></div>
+                    <div class="decoration-circle"></div>
+                    <div class="decoration-circle"></div>
+                </div>
+            </header>
+            
+            <main class="app-main">
+                <!-- Your existing main content remains the same -->
+                <!-- ... -->
+          
+        <header class="app-header">
+            <div class="header-content">
+                <div class="logo-container">
+                    <i class="fas fa-book-open logo-icon"></i>
+                    <h1 class="logo-text">EduToon</h1>
+                </div>
+                <p class="tagline">Transform complex topics into captivating stories</p>
+            </div>
+            <div class="header-decoration">
+                <div class="decoration-circle"></div>
+                <div class="decoration-circle"></div>
+                <div class="decoration-circle"></div>
+            </div>
+        </header>
+        
+        <main class="app-main">
+            <div class="input-section card">
+                <div class="section-header">
+                    <h2><i class="fas fa-lightbulb"></i> What would you like to learn?</h2>
+                    <div class="progress-indicator">Step 1 of 3</div>
+                </div>
+                
+                <div class="input-group">
+                    <div class="input-container">
+                        <input type="text" id="topic" placeholder="Enter any topic (e.g., Photosynthesis, Blockchain, Calculus)">
+                        <i class="fas fa-search input-icon"></i>
+                    </div>
+                    <button id="generate-btn" class="primary-btn">
+                        <span class="btn-text">Begin Learning Journey</span>
+                        <span class="spinner"><i class="fas fa-spinner fa-spin"></i></span>
+                    </button>
+                </div>
+                <div id="error-message" class="error-message"></div>
+            </div>
+
+            <div id="level-options" class="options-section card">
+                <div class="section-header">
+                    <h2><i class="fas fa-user-graduate"></i> What's your knowledge level?</h2>
+                    <div class="progress-indicator">Step 2 of 3</div>
+                </div>
+                
+                <div class="options-grid">
+                    <div class="option-card" data-level="beginner">
+                        <div class="option-icon beginner">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h3>Beginner</h3>
+                        <p>Just starting out with this topic</p>
+                        <div class="option-footer">
+                            <span class="difficulty-tag">Basic Concepts</span>
+                        </div>
+                    </div>
+                    
+                    <div class="option-card" data-level="intermediate">
+                        <div class="option-icon intermediate">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Intermediate</h3>
+                        <p>Some familiarity with the topic</p>
+                        <div class="option-footer">
+                            <span class="difficulty-tag">Deeper Understanding</span>
+                        </div>
+                    </div>
+                    
+                    <div class="option-card" data-level="advanced">
+                        <div class="option-icon advanced">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Advanced</h3>
+                        <p>Looking to master the topic</p>
+                        <div class="option-footer">
+                            <span class="difficulty-tag">Expert Level</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <button id="back-to-topic" class="secondary-btn back-btn">
+                    <i class="fas fa-arrow-left"></i> Back
+                </button>
+            </div>
+
+            <div id="learn-revise-options" class="options-section card">
+                <div class="section-header">
+                    <h2><i class="fas fa-bullseye"></i> What's your learning goal?</h2>
+                    <div class="progress-indicator">Step 3 of 3</div>
+                </div>
+                
+                <div class="options-grid">
+                    <div class="option-card" data-action="learn">
+                        <div class="option-icon learn">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Learn</h3>
+                        <p>First-time explanation of the concept</p>
+                        <div class="option-footer">
+                            <span class="goal-tag">Foundational</span>
+                        </div>
+                    </div>
+                    
+                    <div class="option-card" data-action="revise">
+                        <div class="option-icon revise">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                        <h3>Revise</h3>
+                        <p>Refresh and reinforce my knowledge</p>
+                        <div class="option-footer">
+                            <span class="goal-tag">Reinforcement</span>
+                        </div>
+                    </div>
+                    
+                    <div class="option-card" data-action="practice">
+                        <div class="option-icon practice">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <h3>Practice</h3>
+                        <p>Test my understanding with exercises</p>
+                        <div class="option-footer">
+                            <span class="goal-tag">Application</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <button id="back-to-level" class="secondary-btn back-btn">
+                    <i class="fas fa-arrow-left"></i> Back
+                </button>
+            </div>
+
+            <div id="output" class="output-section card">
+                <div class="output-header">
+                    <div>
+                        <h2 id="output-title" class="output-title"></h2>
+                        <div class="output-meta">
+                            <span class="meta-tag level-tag"></span>
+                            <span class="meta-tag goal-tag"></span>
+                        </div>
+                    </div>
+                    <div class="output-actions">
+                        <button class="icon-btn" id="copy-btn" title="Copy Story">
+                            <i class="fas fa-copy"></i>
+                        </button>
+                        <button class="icon-btn" id="audio-btn" title="Listen to Story">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="output-content" id="output-content"></div>
+                
+                <div class="output-footer">
+                    <button id="back-to-action" class="primary-btn">
+                        <i class="fas fa-plus"></i> Create New Story
+                    </button>
+                    <div class="rating-widget">
+                        <span>Rate this story:</span>
+                        <div class="stars">
+                            <i class="far fa-star" data-rating="1"></i>
+                            <i class="far fa-star" data-rating="2"></i>
+                            <i class="far fa-star" data-rating="3"></i>
+                            <i class="far fa-star" data-rating="4"></i>
+                            <i class="far fa-star" data-rating="5"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="app-footer">
+            <p>© 2023 EduToon AI | Making learning delightful through storytelling</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
