@@ -82,4 +82,4 @@ This work is licensed under the [Creative Commons Attribution 4.0 International 
 👩‍💻 **Dhanali Khandagale**  
 I’m passionate about making learning engaging and interactive!  
 - 📫 Contact me: [dhanali26a@gmail.com]  
-- 🌟 Follow me on GitHub: [GitHub Profile Link] 
+- 🌟 Follow me on GitHub: [https://github.com/DhanaliK] 
