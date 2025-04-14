@@ -73,3 +73,13 @@ Fork the repo, make your change, and submit a pull request!
 ## Acknowledgments:
 
 Big thanks to OpenAI for the AI magic 🧙‍♂️!
+
+## License  
+This work is licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).  
+
+
+## Author  
+👩‍💻 **Dhanali Khandagale**  
+I’m passionate about making learning engaging and interactive!  
+- 📫 Contact me: [dhanali26a@gmail.com]  
+- 🌟 Follow me on GitHub: [GitHub Profile Link] 
